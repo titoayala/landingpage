@@ -1,0 +1,55 @@
+body {
+  background: rgb(241, 234, 217);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode";
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+    font-weight: bold;
+}
+
+.header{
+    height: 3em;
+    padding: 2em; 
+    font-size: 2em; 
+    background-image: url("../imgs/futbolamericano.jpg"); /* Imagen de fondo de la sección Principal */
+    background-size:cover;
+    background-position:center;
+}
+
+.subtitulo {
+    margin-top: 0; 
+    margin-bottom: 0;
+    font-style: italic; /* texto cursiva */
+}    
+
+.imagen {
+    text-align: right;
+}    
+
+.products {
+    width: 80%;
+}
+
+.products td {
+    width: 40%;
+    padding: 0.5em;
+}
+
+.products img{
+    width: 45%;
+    border: solid 2px rgb(0, 0, 0);
+}
+
+.footer{
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(26, 177, 236);
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
